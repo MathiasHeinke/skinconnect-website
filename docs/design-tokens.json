@@ -1,0 +1,126 @@
+{
+  "$schema": "https://tr.designtokens.org/format/",
+  "meta": {
+    "project": "SkinConnect Investment-Pitch-Deck",
+    "design-system": "Swiss Design + Glassmorphism",
+    "version": "1.0.0",
+    "date": "2025-11-01",
+    "author": "MiniMax Agent"
+  },
+  "color": {
+    "primary": {
+      "50": { "value": "#EFF6FF", "type": "color" },
+      "100": { "value": "#DBEAFE", "type": "color" },
+      "500": { "value": "#3B82F6", "type": "color", "description": "Primary brand color for CTAs, key metrics, chart highlights" },
+      "700": { "value": "#1D4ED8", "type": "color", "description": "Hover states, active links" },
+      "900": { "value": "#1E3A8A", "type": "color" }
+    },
+    "neutral": {
+      "0": { "value": "#FFFFFF", "type": "color", "description": "Main background, card backgrounds" },
+      "50": { "value": "#F9FAFB", "type": "color", "description": "Subtle section backgrounds" },
+      "100": { "value": "#F3F4F6", "type": "color", "description": "Disabled states, dividers" },
+      "200": { "value": "#E5E7EB", "type": "color", "description": "Borders, grid lines" },
+      "700": { "value": "#374151", "type": "color", "description": "Secondary text, labels" },
+      "900": { "value": "#111827", "type": "color", "description": "Primary text, headlines" }
+    },
+    "glass": {
+      "white": { "value": "rgba(255, 255, 255, 0.4)", "type": "color", "description": "Card overlays on light backgrounds" },
+      "tint": { "value": "rgba(239, 246, 255, 0.5)", "type": "color", "description": "Card overlays with primary tint" },
+      "shadow": { "value": "rgba(0, 0, 0, 0.08)", "type": "color", "description": "Subtle shadows for glassmorphism" }
+    },
+    "semantic": {
+      "success": { "value": "#10B981", "type": "color", "description": "Positive metrics, growth charts" },
+      "warning": { "value": "#F59E0B", "type": "color", "description": "Warnings, risk indicators" },
+      "error": { "value": "#EF4444", "type": "color", "description": "Errors, critical notices" }
+    },
+    "background": {
+      "base": { "value": "#FFFFFF", "type": "color", "description": "Main canvas background" },
+      "elevated": { "value": "#F9FAFB", "type": "color", "description": "Alternating section backgrounds" }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "display": { "value": "Helvetica Neue, Helvetica, Arial, sans-serif", "type": "fontFamily", "description": "Headlines, number displays (Swiss Design core)" },
+      "body": { "value": "Inter, -apple-system, system-ui, sans-serif", "type": "fontFamily", "description": "Body text, UI elements" },
+      "mono": { "value": "JetBrains Mono, Consolas, monospace", "type": "fontFamily", "description": "Code snippets, technical specs" }
+    },
+    "fontSize": {
+      "xs": { "value": "12px", "type": "dimension", "description": "Metadata, footnotes" },
+      "sm": { "value": "14px", "type": "dimension", "description": "Secondary text, labels" },
+      "base": { "value": "16px", "type": "dimension", "description": "Body text standard" },
+      "lg": { "value": "18px", "type": "dimension", "description": "Intro texts, subtitles" },
+      "xl": { "value": "20px", "type": "dimension", "description": "Small section headings" },
+      "2xl": { "value": "24px", "type": "dimension", "description": "Card headings" },
+      "3xl": { "value": "32px", "type": "dimension", "description": "H2 headlines" },
+      "4xl": { "value": "48px", "type": "dimension", "description": "H1 headlines, hero titles" },
+      "5xl": { "value": "64px", "type": "dimension", "description": "Hero display numbers" },
+      "6xl": { "value": "96px", "type": "dimension", "description": "Mega metrics (e.g., '24.04 Mrd. €')" }
+    },
+    "fontWeight": {
+      "regular": { "value": "400", "type": "fontWeight" },
+      "medium": { "value": "500", "type": "fontWeight" },
+      "semibold": { "value": "600", "type": "fontWeight" },
+      "bold": { "value": "700", "type": "fontWeight" }
+    },
+    "lineHeight": {
+      "tight": { "value": "1.1", "type": "number", "description": "Headlines (text-5xl+)" },
+      "snug": { "value": "1.3", "type": "number", "description": "H2-H3 headlines" },
+      "normal": { "value": "1.5", "type": "number", "description": "UI elements, labels" },
+      "relaxed": { "value": "1.6", "type": "number", "description": "Body text optimal readability" }
+    },
+    "letterSpacing": {
+      "tight": { "value": "-0.02em", "type": "number", "description": "Headlines (Helvetica)" },
+      "normal": { "value": "0", "type": "number" },
+      "wide": { "value": "0.05em", "type": "number", "description": "ALL CAPS labels" }
+    }
+  },
+  "spacing": {
+    "1": { "value": "4px", "type": "dimension", "description": "Micro spacing (icon-to-text)" },
+    "2": { "value": "8px", "type": "dimension", "description": "Tight elements (button padding vertical)" },
+    "3": { "value": "12px", "type": "dimension", "description": "Label-to-input" },
+    "4": { "value": "16px", "type": "dimension", "description": "Card inner spacing (small)" },
+    "6": { "value": "24px", "type": "dimension", "description": "Moderate spacing (card padding standard)" },
+    "8": { "value": "32px", "type": "dimension", "description": "Card padding (glassmorphism cards)" },
+    "12": { "value": "48px", "type": "dimension", "description": "Section inner spacing" },
+    "16": { "value": "64px", "type": "dimension", "description": "Section-to-section vertical" },
+    "24": { "value": "96px", "type": "dimension", "description": "Large section spacing (hero to next)" },
+    "32": { "value": "128px", "type": "dimension", "description": "Extra large (hero padding vertical)" }
+  },
+  "borderRadius": {
+    "none": { "value": "0px", "type": "dimension", "description": "Swiss Design elements (tables, grid lines)" },
+    "sm": { "value": "4px", "type": "dimension", "description": "Small UI elements (badges, tags)" },
+    "base": { "value": "8px", "type": "dimension", "description": "Buttons, inputs" },
+    "lg": { "value": "12px", "type": "dimension", "description": "Cards (glassmorphism standard)" },
+    "xl": { "value": "16px", "type": "dimension", "description": "Large cards, hero sections" },
+    "full": { "value": "9999px", "type": "dimension", "description": "Avatar, pills" }
+  },
+  "boxShadow": {
+    "none": { "value": "none", "type": "shadow", "description": "Flat elements (Swiss tables)" },
+    "sm": { "value": "0 1px 2px 0 rgba(0, 0, 0, 0.05)", "type": "shadow", "description": "Subtle elevation (hover states)" },
+    "card": { "value": "0 4px 12px 0 rgba(0, 0, 0, 0.08)", "type": "shadow", "description": "Standard cards (rest state)" },
+    "cardHover": { "value": "0 8px 24px 0 rgba(0, 0, 0, 0.12)", "type": "shadow", "description": "Card hover (subtle lift)" },
+    "glass": { "value": "0 8px 32px rgba(0, 0, 0, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.6)", "type": "shadow", "description": "Glassmorphism cards (multi-layer)" },
+    "modal": { "value": "0 24px 48px 0 rgba(0, 0, 0, 0.16)", "type": "shadow", "description": "Modals, overlays" }
+  },
+  "animation": {
+    "duration": {
+      "instant": { "value": "0ms", "type": "duration" },
+      "fast": { "value": "150ms", "type": "duration", "description": "Micro-interactions (hover states)" },
+      "base": { "value": "250ms", "type": "duration", "description": "Standard transitions (color, shadow)" },
+      "slow": { "value": "350ms", "type": "duration", "description": "Smooth scroll, section transitions" },
+      "slower": { "value": "500ms", "type": "duration", "description": "Hero animations, entrance effects" }
+    },
+    "easing": {
+      "easeOut": { "value": "cubic-bezier(0, 0, 0.2, 1)", "type": "cubicBezier", "description": "Standard (90% of cases)" },
+      "easeInOut": { "value": "cubic-bezier(0.4, 0, 0.2, 1)", "type": "cubicBezier", "description": "Elegant transitions (glassmorphism)" }
+    }
+  },
+  "backdrop": {
+    "blur": {
+      "sm": { "value": "10px", "type": "dimension", "description": "Mobile glassmorphism (performance)" },
+      "base": { "value": "20px", "type": "dimension", "description": "Tablet glassmorphism" },
+      "lg": { "value": "30px", "type": "dimension", "description": "Desktop glassmorphism (data cards)" },
+      "xl": { "value": "40px", "type": "dimension", "description": "Desktop glassmorphism (hero/intense)" }
+    }
+  }
+}
